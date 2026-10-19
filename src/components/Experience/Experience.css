@@ -1,0 +1,173 @@
+.experience-section {
+  background: var(--bg-primary);
+}
+
+.experience-layout-grid {
+  display: grid;
+  grid-template-columns: 1.35fr 0.85fr;
+  gap: var(--space-8);
+  align-items: start;
+}
+
+.column-title {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--text-tertiary);
+  letter-spacing: 0.08em;
+  margin-bottom: var(--space-4);
+}
+
+/* Work Experience List */
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.experience-card {
+  padding: var(--space-5);
+  background: #ffffff;
+  border: 1px solid var(--border-subtle);
+}
+
+.exp-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--space-3);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--border-subtle);
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.exp-role-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.exp-role {
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.exp-org {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+}
+
+.exp-period-badge {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-tertiary);
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.exp-points-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.exp-point-item {
+  display: flex;
+  gap: var(--space-2);
+  align-items: baseline;
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+.bullet-dash {
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+/* Education Column */
+.education-col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.education-card {
+  padding: var(--space-4);
+  background: var(--bg-secondary);
+}
+
+.edu-period {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-tertiary);
+  margin-bottom: 4px;
+}
+
+.edu-degree {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+  line-height: 1.4;
+}
+
+.edu-institution {
+  font-size: var(--text-xs);
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+
+.edu-note-badge {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-primary);
+  background: #ffffff;
+  border: 1px solid var(--border-light);
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+}
+
+/* Competence box */
+.competence-badge-box {
+  background: var(--bg-tertiary);
+  padding: var(--space-4);
+  border-left: 3px solid var(--border-strong);
+}
+
+.box-label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+
+.box-desc {
+  font-size: var(--text-xs);
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .experience-layout-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+  }
+}
