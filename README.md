@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portofolio Web Modern & Berstandar Web (Web Standards Compliant)
 
 Aplikasi Web Portofolio Profesional yang dibangun dari awal (*from scratch*) dengan arsitektur modern **React + Vite**, mematuhi standar konsorsium web internasional (**W3C HTML5 Semantic**, **WCAG 2.1 Accessibility**, dan **Core Web Vitals**).
@@ -95,3 +96,7 @@ npm run build
 Anda dapat memperbarui seluruh isi portofolio (nama, bio, sosial media, proyek, keahlian, dan riwayat pekerjaan) hanya dengan mengedit satu file terpusat:
 👉 `src/data/portfolioData.js`
 Semua komponen akan langsung terupdate secara otomatis tanpa perlu mengubah struktur HTML atau JSX.
+=======
+# Hanifportofolio
+PORTOFOLIO
+>>>>>>> b60efcfa827d54a09a3e4a1740995a54050baa96
